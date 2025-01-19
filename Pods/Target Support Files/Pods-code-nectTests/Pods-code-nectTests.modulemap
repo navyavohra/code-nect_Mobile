@@ -1,0 +1,6 @@
+framework module Pods_code_nectTests {
+  umbrella header "Pods-code-nectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

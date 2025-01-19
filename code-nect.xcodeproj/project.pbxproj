@@ -6,6 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0483716751EEF0B660DFF2F0 /* Pods_code_nect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0205DD0F1ADBF374B5042D /* Pods_code_nect.framework */; };
+		3461FEE0A09AEB7B4C615102 /* Pods_code_nectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EB56421BCF33217B348D75 /* Pods_code_nectTests.framework */; };
+		CEDD9F4EBD07E7FA46832D56 /* Pods_code_nect_code_nectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258AB533C9FF1F4FC8F6E71D /* Pods_code_nect_code_nectUITests.framework */; };
+		D5CB7E692D3D121200AA9235 /* GoogleService-Info-4 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5CB7E682D3D121200AA9235 /* GoogleService-Info-4 2.plist */; };
+		D5CB7EC12D3D1A4400AA9235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CB7EAF2D3D1A4400AA9235 /* AppDelegate.swift */; };
+		D5CB7ED22D3D1A6B00AA9235 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D5CB7ED12D3D1A6B00AA9235 /* FirebaseAnalytics */; };
+		D5CB7FA62D3D210000AA9235 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D5CB7FA52D3D210000AA9235 /* FirebaseAnalytics */; };
+		D5CB7FA82D3D210000AA9235 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = D5CB7FA72D3D210000AA9235 /* FirebaseAnalyticsOnDeviceConversion */; };
+		D5CB7FAA2D3D210000AA9235 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = D5CB7FA92D3D210000AA9235 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		D5CB7FAC2D3D210000AA9235 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = D5CB7FAB2D3D210000AA9235 /* FirebaseAppCheck */; };
+		D5CB7FAE2D3D210000AA9235 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = D5CB7FAD2D3D210000AA9235 /* FirebaseAppDistribution-Beta */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D513E2EC2D3C20320057BA4F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B829246D614D70C68A2348A /* Pods-code-nect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code-nect.release.xcconfig"; path = "Target Support Files/Pods-code-nect/Pods-code-nect.release.xcconfig"; sourceTree = "<group>"; };
+		1E0205DD0F1ADBF374B5042D /* Pods_code_nect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_code_nect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		258AB533C9FF1F4FC8F6E71D /* Pods_code_nect_code_nectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_code_nect_code_nectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0AACFB01F4C3F9CD58EA44 /* Pods-code-nect-code-nectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code-nect-code-nectUITests.release.xcconfig"; path = "Target Support Files/Pods-code-nect-code-nectUITests/Pods-code-nect-code-nectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66E1EFE474D78760BCF7B349 /* Pods-code-nectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code-nectTests.debug.xcconfig"; path = "Target Support Files/Pods-code-nectTests/Pods-code-nectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88EB56421BCF33217B348D75 /* Pods_code_nectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_code_nectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FF746FEF83209EB237ED56 /* Pods-code-nectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code-nectTests.release.xcconfig"; path = "Target Support Files/Pods-code-nectTests/Pods-code-nectTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABE2A1661DCC553504B8FCFC /* Pods-code-nect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code-nect.debug.xcconfig"; path = "Target Support Files/Pods-code-nect/Pods-code-nect.debug.xcconfig"; sourceTree = "<group>"; };
+		AC69D5795BE72B3618B3D97C /* Pods-code-nect-code-nectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-code-nect-code-nectUITests.debug.xcconfig"; path = "Target Support Files/Pods-code-nect-code-nectUITests/Pods-code-nect-code-nectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D513E2DB2D3C202F0057BA4F /* code-nect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "code-nect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D513E2EB2D3C20320057BA4F /* code-nectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "code-nectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D513E2F52D3C20320057BA4F /* code-nectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "code-nectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CB7E682D3D121200AA9235 /* GoogleService-Info-4 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-4 2.plist"; sourceTree = "<group>"; };
+		D5CB7EAF2D3D1A4400AA9235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +77,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CB7FAE2D3D210000AA9235 /* FirebaseAppDistribution-Beta in Frameworks */,
+				D5CB7ED22D3D1A6B00AA9235 /* FirebaseAnalytics in Frameworks */,
+				D5CB7FAA2D3D210000AA9235 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				0483716751EEF0B660DFF2F0 /* Pods_code_nect.framework in Frameworks */,
+				D5CB7FA62D3D210000AA9235 /* FirebaseAnalytics in Frameworks */,
+				D5CB7FAC2D3D210000AA9235 /* FirebaseAppCheck in Frameworks */,
+				D5CB7FA82D3D210000AA9235 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3461FEE0A09AEB7B4C615102 /* Pods_code_nectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +99,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDD9F4EBD07E7FA46832D56 /* Pods_code_nect_code_nectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6503E477D8D76C103E5E8FCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE2A1661DCC553504B8FCFC /* Pods-code-nect.debug.xcconfig */,
+				1B829246D614D70C68A2348A /* Pods-code-nect.release.xcconfig */,
+				AC69D5795BE72B3618B3D97C /* Pods-code-nect-code-nectUITests.debug.xcconfig */,
+				4B0AACFB01F4C3F9CD58EA44 /* Pods-code-nect-code-nectUITests.release.xcconfig */,
+				66E1EFE474D78760BCF7B349 /* Pods-code-nectTests.debug.xcconfig */,
+				A2FF746FEF83209EB237ED56 /* Pods-code-nectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A678763B9CEA5A58452335C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E0205DD0F1ADBF374B5042D /* Pods_code_nect.framework */,
+				258AB533C9FF1F4FC8F6E71D /* Pods_code_nect_code_nectUITests.framework */,
+				88EB56421BCF33217B348D75 /* Pods_code_nectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D513E2D22D3C202F0057BA4F = {
 			isa = PBXGroup;
 			children = (
+				D5CB7E682D3D121200AA9235 /* GoogleService-Info-4 2.plist */,
+				D5CB7EAF2D3D1A4400AA9235 /* AppDelegate.swift */,
 				D513E2DD2D3C202F0057BA4F /* code-nect */,
 				D513E2EE2D3C20320057BA4F /* code-nectTests */,
 				D513E2F82D3C20320057BA4F /* code-nectUITests */,
 				D513E2DC2D3C202F0057BA4F /* Products */,
+				6503E477D8D76C103E5E8FCC /* Pods */,
+				8A678763B9CEA5A58452335C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D513E2FF2D3C20320057BA4F /* Build configuration list for PBXNativeTarget "code-nect" */;
 			buildPhases = (
+				5A0342054437BEC64B8D4289 /* [CP] Check Pods Manifest.lock */,
 				D513E2D72D3C202F0057BA4F /* Sources */,
 				D513E2D82D3C202F0057BA4F /* Frameworks */,
 				D513E2D92D3C202F0057BA4F /* Resources */,
+				EF392A989C1C55E11231E991 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +174,6 @@
 				D513E2DD2D3C202F0057BA4F /* code-nect */,
 			);
 			name = "code-nect";
-			packageProductDependencies = (
-			);
 			productName = "code-nect";
 			productReference = D513E2DB2D3C202F0057BA4F /* code-nect.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D513E3022D3C20320057BA4F /* Build configuration list for PBXNativeTarget "code-nectTests" */;
 			buildPhases = (
+				DE4B552CFE6905C69CA4B978 /* [CP] Check Pods Manifest.lock */,
 				D513E2E72D3C20320057BA4F /* Sources */,
 				D513E2E82D3C20320057BA4F /* Frameworks */,
 				D513E2E92D3C20320057BA4F /* Resources */,
@@ -134,8 +196,6 @@
 				D513E2EE2D3C20320057BA4F /* code-nectTests */,
 			);
 			name = "code-nectTests";
-			packageProductDependencies = (
-			);
 			productName = "code-nectTests";
 			productReference = D513E2EB2D3C20320057BA4F /* code-nectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D513E3052D3C20320057BA4F /* Build configuration list for PBXNativeTarget "code-nectUITests" */;
 			buildPhases = (
+				33666904ED5E9E47CD33B162 /* [CP] Check Pods Manifest.lock */,
 				D513E2F12D3C20320057BA4F /* Sources */,
 				D513E2F22D3C20320057BA4F /* Frameworks */,
 				D513E2F32D3C20320057BA4F /* Resources */,
+				FF5C0C54F6ACB941F0D2A875 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +219,6 @@
 				D513E2F82D3C20320057BA4F /* code-nectUITests */,
 			);
 			name = "code-nectUITests";
-			packageProductDependencies = (
-			);
 			productName = "code-nectUITests";
 			productReference = D513E2F52D3C20320057BA4F /* code-nectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -195,6 +255,9 @@
 			);
 			mainGroup = D513E2D22D3C202F0057BA4F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D513E2DC2D3C202F0057BA4F /* Products */;
 			projectDirPath = "";
@@ -212,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CB7E692D3D121200AA9235 /* GoogleService-Info-4 2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +295,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33666904ED5E9E47CD33B162 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-code-nect-code-nectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0342054437BEC64B8D4289 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-code-nect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE4B552CFE6905C69CA4B978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-code-nectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF392A989C1C55E11231E991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-code-nect/Pods-code-nect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-code-nect/Pods-code-nect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-code-nect/Pods-code-nect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5C0C54F6ACB941F0D2A875 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-code-nect-code-nectUITests/Pods-code-nect-code-nectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-code-nect-code-nectUITests/Pods-code-nect-code-nectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-code-nect-code-nectUITests/Pods-code-nect-code-nectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D513E2D72D3C202F0057BA4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CB7EC12D3D1A4400AA9235 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +558,7 @@
 		};
 		D513E3002D3C20320057BA4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE2A1661DCC553504B8FCFC /* Pods-code-nect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +588,7 @@
 		};
 		D513E3012D3C20320057BA4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B829246D614D70C68A2348A /* Pods-code-nect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +618,7 @@
 		};
 		D513E3032D3C20320057BA4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E1EFE474D78760BCF7B349 /* Pods-code-nectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +638,7 @@
 		};
 		D513E3042D3C20320057BA4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FF746FEF83209EB237ED56 /* Pods-code-nectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +658,7 @@
 		};
 		D513E3062D3C20320057BA4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC69D5795BE72B3618B3D97C /* Pods-code-nect-code-nectUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +676,7 @@
 		};
 		D513E3072D3C20320057BA4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0AACFB01F4C3F9CD58EA44 /* Pods-code-nect-code-nectUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -558,6 +732,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5CB7ED12D3D1A6B00AA9235 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D5CB7FA52D3D210000AA9235 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D5CB7FA72D3D210000AA9235 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		D5CB7FA92D3D210000AA9235 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		D5CB7FAB2D3D210000AA9235 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		D5CB7FAD2D3D210000AA9235 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5CB7EAE2D3D19CE00AA9235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D513E2D32D3C202F0057BA4F /* Project object */;
 }
