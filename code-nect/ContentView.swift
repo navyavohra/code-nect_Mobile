@@ -8,35 +8,41 @@
 import SwiftUICore
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            VStack {
-                Spacer()
-                
-                Text("codenect")
-                    .font(.system(size: 64, weight: .bold))
-                    .foregroundColor(.black)
-                
-                Spacer()
-                
-                NavigationLink(destination: CreateJoinView()) {
-                    Text("<start>")
-                        .font(.title2)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(Color.primaryPink)
-                        .cornerRadius(10)
+            GeometryReader { geometry in
+                HStack {
+                    Spacer()
+                    
+                    VStack {
+                        Image("codenect")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                        
+                        Spacer()
+                        
+                        NavigationLink(destination: CreateJoinView()) {
+                            Text("<start>")
+                                .font(.title2)
+                                .foregroundColor(.white)
+                                .padding()
+                                .background(Color.primaryBlue)
+                                .cornerRadius(10)
+                        }
+                    }
+                    .frame(width: geometry.size.width * 0.5)
+                    
+                    Spacer()
                 }
-                
-                Spacer()
+                .padding()
+                .background(Color.backgroundLight.ignoresSafeArea())
             }
-            .padding()
-            .background(Color.backgroundLight.ignoresSafeArea())
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
-
 
 #Preview {
     ContentView()
